@@ -1,0 +1,45 @@
+*{
+  font-family: 'Dancing Script', cursive;
+}
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.background-color{
+  background-color: black;
+}
+#about{
+  color: #ffffff;
+}
+.meal_image{
+  width: 220px;
+  height: 165px;
+  margin: 2px;
+  transition: all 0.38s;
+  border: 1px dashed;
+}
+.scalableImage{
+  background-image: url('../img/img001.jpg');
+}
+
+
+* :not(.font001){
+  font-family: 'Reem Kufi', sans-serif;
+}
+.font001{
+  font-family: 'Gloria Hallelujah', cursive;
+}
